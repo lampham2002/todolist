@@ -1,9 +1,9 @@
 
  h2{
     font-size: 30px;
-color: #eee;}
+color: rgb(252, 249, 249);}
 .header{
-    background: rgb(19, 161, 142);
+    background: rgb(9, 103, 245);
    height: 170px;
    width: 450px;
    text-align: center;
@@ -13,6 +13,7 @@ color: #eee;}
     padding: 10px;
     width: 350px;
     font-size: 20px;
+    border-radius: 3px;
 }
 .addBtn{
     background: yellow;
@@ -22,7 +23,7 @@ color: #eee;}
     cursor: pointer;
     font-size: 20px;
     transition: 0.3s;
-    
+    border-radius: 3px;
 }
 .addBtn:hover{
     background: #bbb;
@@ -48,6 +49,7 @@ ul {
  ul li:hover{
     color: aqua;
     background: black;
+    border-radius: 20px;
  }
  
  .close{
@@ -63,6 +65,7 @@ ul {
   .close:hover {
     background-color: #f44336;
     color: white;
+   
   }
 
   #demo {
