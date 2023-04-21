@@ -75,7 +75,7 @@ ul {
   }
   @media only screen and (max-width:1500px) {
     .container {
-        margin-left: 400px;
+        margin-left: 370px;
     }
   }
    @media only screen and (min-width:1800px) {
@@ -90,8 +90,4 @@ ul {
     }
   }
 
-  @media only screen and (max-width:300px) {
-    .container {
-        
-    }
-  }
+ 
