@@ -10,7 +10,6 @@ setInterval(myfunction, 100);
  
 
 var li = document.getElementsByTagName("li");
-var i;
 for (i = 0; i < li.length;  i++){
   var span = document.createElement("span");
   var x = document.createTextNode("\u00D7");
@@ -25,6 +24,7 @@ for (i = 0; i < close.length; i++){
   close[i].onclick = function(){
     var x = this.parentElement;
     x.style.display =" none"
+    
   } }
 
 
@@ -57,7 +57,5 @@ for (i = 0; i < close.length; i++){
     } 
    
  
-  
-    
   
   
